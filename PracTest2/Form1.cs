@@ -68,6 +68,7 @@ namespace PracTest2
             if ((BALL_SIZE + GAP_SIZE) * numLottoBalls < DISPLAY_WIDTH)
             {
                 //CALCULATE how many balls can be displayed
+                //DRAW grid of balls in various colors in smartphone display
             }
             else
             {
