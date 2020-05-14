@@ -1,0 +1,26 @@
+TRY
+GET number of lotto balls from user
+CHECK if number of lotto balls will fit the display-width
+IF lotto balls fit the display-width
+	FOR count is less than the display
+		WHILE (ball + gap) + y <= display-height
+			IF (number < 10)
+			color will be blue
+			ELSE IF (number < 20)
+			color will be orange
+			ELSE IF (number < 30)  		
+			color will be green
+			ELSE IF (number < 40)
+			color will be red
+			ELSE
+			color will be purple
+			ENDIF
+		DRAW grid of balls in various colors in the display
+		SHIFT column(y) ball and gap size
+		ENDWHILE
+	DRAW from the top
+	SHIFT row(x) ball size + gap size
+	ENDFOR
+ELSE error message
+ENDIF
+CATCH error message  
